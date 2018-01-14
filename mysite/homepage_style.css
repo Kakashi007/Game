@@ -1,0 +1,203 @@
+body
+{
+	background-color:#212f3d;
+}
+
+#page
+{
+	background-image:url('http://favim.com/orig/201108/05/beautiful-horizon-night-sky-stars-Favim.com-120427.jpg'); //no-repeat;
+}
+
+#header
+{
+	border-bottom:5px solid  #f7f9f9;
+	height:60px;
+	line-height:60px;
+	min-width:700px;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:white;
+	background-color:black;
+	overflow:hidden;
+	
+}
+
+#header span
+{
+	font-size:2em;
+	padding-left:20px;
+	color:white;
+	font-weight:bold; 
+}
+#header span a
+{
+	text-decoration:none;
+	color:white;
+}
+#header ul
+{
+	list-style-type:none;
+	padding:0px;
+	margin:0px;
+	text-align:right;
+	//background-color:#011011;
+	margin-top:-60px;
+
+}
+#header ul li
+{
+	display:inline;
+}
+#header ul li button
+{
+	text-decoration:none;
+	color:  #5e0b0b  ;
+	padding:10px;
+	margin-right:20px;
+	outline:none;
+	font-family: 'Times new roman';
+	font-size: 20px;
+	font-weight:bold; 
+}
+#header ul li button:hover
+{
+	border-bottom:3px solid  #050b34 ;
+	border-right:3px solid #050b34 ;
+	border-bottom-right-radius:20px;
+	//border-bottom-left-radius:20px;
+	background-color: #c9f37f ;
+}
+
+#LogIn,#SignUp
+{
+	display:inline;
+}
+
+#LogOut
+{
+	display:none;
+}
+
+ 
+#nav_bar{
+	height:500px;
+	border:3px solid black;
+	float:left;
+	
+
+}
+
+#nav_bar ul
+{
+	list-style-type:none;
+	padding-left:0px;
+	
+}
+#nav_bar ul li
+{
+	display:inline-block;
+	padding-bottom:60px;
+	
+}
+#nav_bar ul li a
+{
+	text-decoration:none;
+	font-size:25px;
+	text-align:center;
+	color: #f9e79f ;
+	
+}
+ #Algo,#Dbms,#Php,#Sw_engg{
+	display:inline;
+	margin-left:10px;
+	margin-right:10px;
+	font:20px;
+	
+	/*font-style:Arial;
+	border:2px solid yellow;*/
+}
+
+#LogInForm{
+	display:none;
+	font:50px;
+	//border:5px solid green;
+	padding: :20px;
+
+	position: absolute;
+	margin-left:50px;
+    margin-right:50px;
+     vertical-align: middle;
+   margin-top: 70px;
+}
+
+#SignUpForm{
+	display:none;
+	font:50px;
+	//border:5px solid green;
+	padding: :20px;
+	position: absolute;
+ margin-left:50px;
+    margin-right:50px;
+     vertical-align: middle;
+     margin-top: 35px;
+}
+input[type=text],input[type=password],input[type=submit]
+{
+	 width: 50%;
+	 height: 35px;
+   //padding: 12px 20px;
+    //margin: 8px 0;
+   box-sizing: border-box;
+    color: black;
+    font-size: :10px;
+     background-color:white;
+}
+
+input[type=submit]
+{
+	 width: 50%;
+	 height: 35px;
+   //padding: 12px 20px;
+    //margin: 8px 0;
+   box-sizing: border-box;
+    color: white;
+    font-size: :10px;
+     background-color:black;
+}
+input[type=text]:focus,input[type=password]:focus {
+    background-color:  black ;
+    color: white;
+}
+
+#LogInForm span,#SignUpForm span
+{
+	color:white;
+	font-family: Arial;
+	font-size: 35px;
+	font-weight: :bold;
+}
+
+
+#main
+{
+	border:2px solid white;
+	height:550px;
+	width:1000px;
+	margin-left:240px;
+	display: :block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Welcome
+{
+	font-size: 50px;
+	color:white;
+	display: :inline;
+}
+
+#file
+{
+	display: block;
+}
+
